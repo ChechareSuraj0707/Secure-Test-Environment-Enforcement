@@ -42,12 +42,13 @@ export default function App() {
     <div style={{ display: "flex", width: "100%", height: "100%" }}>
       <ToastContainer position="top-right" autoClose={3000} />
       {/* LEFT SIDE - TEST AREA */}
-      <div className="flex-1 flex flex-col p-6 bg-gray-100">
+      <div className="flex-1 flex flex-col p-6" style={{ backgroundColor: "#1a1a1a", color: "rgba(255, 255, 255, 0.87)" }}>
         <h1 className="text-2xl font-bold mb-4">Secure Test Environment</h1>
 
         <textarea
           className="flex-1 border p-3 mb-4 resize-none"
           placeholder="Type your answer here..."
+          style={{ backgroundColor: "#242424", color: "rgba(255, 255, 255, 0.87)", borderColor: "#444" }}
         />
 
         {/* BUTTONS */}
